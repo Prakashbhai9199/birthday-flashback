@@ -1,0 +1,459 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>A Little Birthday Flashback ♡</title>
+
+    <meta
+        name="description"
+        content="A little cinematic birthday flashback made with love."
+    >
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;500;600;700&family=DM+Sans:wght@300;400;500;600&display=swap"
+        rel="stylesheet"
+    >
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- PAGE LOADER -->
+    <div class="loader" id="loader">
+        <div class="loader-content">
+            <span class="loader-small">A LITTLE SOMETHING FOR YOU</span>
+            <div class="loader-line"></div>
+            <span class="loader-count" id="loaderCount">0%</span>
+        </div>
+    </div>
+
+
+    <!-- MUSIC -->
+    <audio id="birthdayMusic" loop>
+        <source src="music/birthday.mp3" type="audio/mpeg">
+    </audio>
+
+    <button class="music-btn" id="musicBtn" aria-label="Toggle music">
+        ♫
+    </button>
+
+
+    <!-- FLOATING PARTICLES -->
+    <div class="particles" id="particles"></div>
+
+
+    <!-- MAIN -->
+    <main id="main">
+
+
+        <!-- ================= INTRO ================= -->
+
+        <section class="hero section">
+
+            <div class="hero-noise"></div>
+
+            <div class="hero-content reveal">
+
+                <p class="eyebrow">
+                    A LITTLE SOMETHING FOR YOU
+                </p>
+
+                <h1>
+                    This isn't just<br>
+                    <span>a birthday wish.</span>
+                </h1>
+
+                <p class="hero-description">
+                    It's a tiny journey through some moments
+                    that matter a little more than words can explain.
+                </p>
+
+                <button class="primary-btn" id="startBtn">
+                    OPEN YOUR SURPRISE
+                    <span>→</span>
+                </button>
+
+            </div>
+
+            <div class="scroll-hint">
+                <span></span>
+                SCROLL SLOWLY
+            </div>
+
+        </section>
+
+
+
+        <!-- ================= FLASHBACK ================= -->
+
+        <section class="flashback section">
+
+            <div class="section-heading reveal">
+
+                <span class="chapter">
+                    CHAPTER 01
+                </span>
+
+                <h2>
+                    Some memories<br>
+                    <em>never get old.</em>
+                </h2>
+
+                <p>
+                    And somehow, yours always find a way
+                    to stay special.
+                </p>
+
+            </div>
+
+
+            <div class="film-wrapper reveal">
+
+                <div class="film-strip">
+
+                    <div class="film-hole top"></div>
+
+                    <div class="film-photo">
+                        <img src="images/photo1.jpg" alt="Memory 1">
+                        <span>01</span>
+                    </div>
+
+                    <div class="film-photo">
+                        <img src="images/photo2.jpg" alt="Memory 2">
+                        <span>02</span>
+                    </div>
+
+                    <div class="film-photo">
+                        <img src="images/photo3.jpg" alt="Memory 3">
+                        <span>03</span>
+                    </div>
+
+                    <div class="film-photo">
+                        <img src="images/photo4.jpg" alt="Memory 4">
+                        <span>04</span>
+                    </div>
+
+                    <div class="film-hole bottom"></div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+
+        <!-- ================= GALLERY ================= -->
+
+        <section class="gallery-section section">
+
+            <div class="section-heading reveal">
+
+                <span class="chapter">
+                    CHAPTER 02
+                </span>
+
+                <h2>
+                    Little pieces<br>
+                    <em>of us.</em>
+                </h2>
+
+            </div>
+
+
+            <div class="gallery">
+
+                <figure class="gallery-item item-large reveal">
+                    <div class="image-wrap">
+                        <img src="images/photo5.jpg" alt="Memory">
+                        <div class="image-number">05</div>
+                    </div>
+                    <figcaption>
+                        <span>THE BEGINNING</span>
+                        A moment worth remembering.
+                    </figcaption>
+                </figure>
+
+
+                <figure class="gallery-item item-small reveal">
+                    <div class="image-wrap">
+                        <img src="images/photo6.jpg" alt="Memory">
+                        <div class="image-number">06</div>
+                    </div>
+                    <figcaption>
+                        <span>THAT SMILE</span>
+                        Some things simply stay.
+                    </figcaption>
+                </figure>
+
+
+                <figure class="gallery-item item-small reveal">
+                    <div class="image-wrap">
+                        <img src="images/photo7.jpg" alt="Memory">
+                        <div class="image-number">07</div>
+                    </div>
+                    <figcaption>
+                        <span>THE LITTLE THINGS</span>
+                        Somehow, they mean the most.
+                    </figcaption>
+                </figure>
+
+
+                <figure class="gallery-item item-large reveal">
+                    <div class="image-wrap">
+                        <img src="images/photo8.jpg" alt="Memory">
+                        <div class="image-number">08</div>
+                    </div>
+                    <figcaption>
+                        <span>ANOTHER MEMORY</span>
+                        One more moment I'd keep forever.
+                    </figcaption>
+                </figure>
+
+            </div>
+
+        </section>
+
+
+
+        <!-- ================= EMOTIONAL ================= -->
+
+        <section class="emotional section">
+
+            <div class="emotional-inner reveal">
+
+                <span class="chapter">
+                    CHAPTER 03
+                </span>
+
+                <p class="tiny-text">
+                    If I had to say just one thing...
+                </p>
+
+                <h2>
+                    You are not<br>
+                    <em>just someone.</em>
+                </h2>
+
+                <div class="heart-line">
+                    ♡
+                </div>
+
+                <p class="emotional-text">
+                    You're one of the most special people
+                    in my life.
+                </p>
+
+                <p class="emotional-text second">
+                    And if there's one thing I want you to
+                    always remember, it's this:
+                </p>
+
+                <div class="big-message">
+                    My first priority will always be
+                    making sure you never feel alone.
+                </div>
+
+            </div>
+
+        </section>
+
+
+
+        <!-- ================= MORE PHOTOS ================= -->
+
+        <section class="photo-memories section">
+
+            <div class="section-heading reveal">
+
+                <span class="chapter">
+                    CHAPTER 04
+                </span>
+
+                <h2>
+                    A few more<br>
+                    <em>memories.</em>
+                </h2>
+
+            </div>
+
+
+            <div class="photo-grid">
+
+                <div class="memory-card reveal">
+                    <img src="images/photo9.jpg" alt="Memory">
+                    <span>09</span>
+                </div>
+
+                <div class="memory-card reveal">
+                    <img src="images/photo10.jpg" alt="Memory">
+                    <span>10</span>
+                </div>
+
+            </div>
+
+        </section>
+
+
+
+        <!-- ================= CAKE ================= -->
+
+        <section class="cake-section section">
+
+            <div class="cake-content reveal">
+
+                <span class="chapter">
+                    CHAPTER 05
+                </span>
+
+                <h2>
+                    Now close your eyes...
+                </h2>
+
+                <p>
+                    Make a wish.
+                </p>
+
+
+                <div class="cake-area" id="cake">
+
+                    <div class="flame flame-1"></div>
+                    <div class="flame flame-2"></div>
+                    <div class="flame flame-3"></div>
+
+                    <div class="candle candle-1"></div>
+                    <div class="candle candle-2"></div>
+                    <div class="candle candle-3"></div>
+
+                    <div class="cake-top"></div>
+                    <div class="cake-body">
+                        <div class="cake-cream"></div>
+                    </div>
+
+                    <div class="cake-plate"></div>
+
+                </div>
+
+
+                <button class="wish-btn" id="wishBtn">
+                    MAKE A WISH ♡
+                </button>
+
+                <p class="wish-hint">
+                    tap the cake
+                </p>
+
+            </div>
+
+        </section>
+
+
+
+        <!-- ================= TREE ================= -->
+
+        <section class="tree-section section">
+
+            <div class="tree-content reveal">
+
+                <span class="chapter">
+                    CHAPTER 06
+                </span>
+
+                <h2>
+                    Some things<br>
+                    <em>keep growing.</em>
+                </h2>
+
+                <p>
+                    Just like memories.
+                </p>
+
+
+                <div class="tree">
+
+                    <div class="tree-trunk"></div>
+
+                    <div class="branch branch-1"></div>
+                    <div class="branch branch-2"></div>
+                    <div class="branch branch-3"></div>
+                    <div class="branch branch-4"></div>
+
+                    <div class="tree-heart heart-1">♡</div>
+                    <div class="tree-heart heart-2">♡</div>
+                    <div class="tree-heart heart-3">♡</div>
+                    <div class="tree-heart heart-4">♡</div>
+                    <div class="tree-heart heart-5">♡</div>
+
+                    <div class="flower flower-1">✿</div>
+                    <div class="flower flower-2">❀</div>
+                    <div class="flower flower-3">✿</div>
+                    <div class="flower flower-4">❁</div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+
+        <!-- ================= FINAL ================= -->
+
+        <section class="ending section">
+
+            <div class="ending-content reveal">
+
+                <div class="final-symbol">
+                    ♡
+                </div>
+
+                <span class="chapter">
+                    ONE LAST THING
+                </span>
+
+                <h2>
+                    Happy Birthday,<br>
+                    <em>Heena.</em>
+                </h2>
+
+                <p class="final-message">
+                    You're my first priority,
+                    my most special person,
+                    and someone I'll always show up for.
+                </p>
+
+                <p class="final-message">
+                    No matter how many chapters come next,
+                    I'll keep making the effort.
+                </p>
+
+                <div class="signature">
+                    Aapka gulaam.
+                </div>
+
+                <div class="from">
+                    — Prakash
+                </div>
+
+                <div class="made-with">
+                    MADE WITH TOO MANY FEELINGS ♡
+                </div>
+
+            </div>
+
+        </section>
+
+
+    </main>
+
+
+    <script src="script.js"></script>
+
+</body>
+</html>
